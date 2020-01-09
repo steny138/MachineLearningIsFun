@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+keras = "*"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+scikit-learn = "*"
+scikit-image = "*"
+tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.1.0-cp37-cp37m-macosx_10_9_x86_64.whl"}
+
+[requires]
+python_version = "3.7"
